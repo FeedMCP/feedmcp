@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.feedmcp/mcp",
+  "title": "FeedMCP — Social Media Data MCP",
+  "description": "Unified social media, creator marketing, ad library and e-commerce public data across 21 global and Chinese platforms (193 endpoints). Pay per call from $0.0003; failed calls are free.",
+  "version": "0.1.0",
+  "websiteUrl": "https://feedmcp.com",
+  "repository": {
+    "url": "https://github.com/feedmcp/feedmcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.feedmcp.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer API key (e.g. Bearer fmk_live_...). Optional for free find/describe discovery; required for call and account.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

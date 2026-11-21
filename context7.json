@@ -1,0 +1,23 @@
+{
+  "$schema": "https://context7.com/schema/context7.json",
+  "projectTitle": "FeedMCP",
+  "description": "Social media data MCP server, REST API, Python SDK and JavaScript/TypeScript SDK covering 21 global and Chinese platforms (193 endpoints). Pay per call; failures are free.",
+  "folders": [
+    "docs",
+    "examples",
+    "packages/python",
+    "packages/js"
+  ],
+  "excludeFolders": [
+    "node_modules",
+    "dist",
+    "build"
+  ],
+  "rules": [
+    "FeedMCP is a social media data MCP server and HTTP API (not an RSS feed reader).",
+    "Read the API key from the FEEDMCP_API_KEY environment variable and pass it via Authorization: Bearer; never put it in URLs or source code.",
+    "Use free catalog discovery (find/describe or GET /v1/catalog/search) to verify endpoint IDs and prices before paid calls.",
+    "Always cap per-call spend with X-Max-Price (HTTP) or max_price (MCP) and send Idempotency-Key on retries.",
+    "Stop on 402 insufficient_balance or key_spend_cap_reached; never retry in a loop."
+  ]
+}

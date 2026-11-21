@@ -1,0 +1,52 @@
+{
+  "name": "feedmcp",
+  "version": "0.1.0",
+  "description": "Official JavaScript/TypeScript SDK and CLI for FeedMCP — unified social media, creator marketing, ad library and e-commerce public data across 21 platforms (193 endpoints).",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://feedmcp.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/feedmcp/feedmcp.git",
+    "directory": "packages/js"
+  },
+  "bugs": {
+    "url": "https://github.com/feedmcp/feedmcp/issues"
+  },
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "bin": {
+    "feedmcp": "./src/cli.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "feedmcp",
+    "mcp",
+    "model-context-protocol",
+    "social-media-api",
+    "tiktok",
+    "youtube",
+    "instagram",
+    "twitter",
+    "xiaohongshu",
+    "douyin",
+    "wechat",
+    "ai-agent"
+  ],
+  "scripts": {
+    "test": "node --test test/client.test.js"
+  }
+}

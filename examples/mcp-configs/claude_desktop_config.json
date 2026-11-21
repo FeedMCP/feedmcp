@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "feedmcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://api.feedmcp.com/mcp",
+        "--header",
+        "Authorization: Bearer fmk_live_YOUR_KEY"
+      ]
+    }
+  }
+}

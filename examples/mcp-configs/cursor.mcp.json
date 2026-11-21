@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "feedmcp": {
+      "url": "https://api.feedmcp.com/mcp",
+      "headers": {
+        "Authorization": "Bearer fmk_live_YOUR_KEY"
+      }
+    }
+  }
+}

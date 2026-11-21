@@ -1,0 +1,3 @@
+[mcp_servers.feedmcp]
+url = "https://api.feedmcp.com/mcp"
+http_headers = { Authorization = "Bearer fmk_live_YOUR_KEY" }
