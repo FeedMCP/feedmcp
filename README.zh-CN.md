@@ -92,6 +92,21 @@ console.log(res.data.items, res.meta.billing);
 
 ---
 
+## AI 协议发现与选型对比
+
+FeedMCP 原生支持完整的 AI Agent 自动发现协议与纯文本协商：
+- `https://feedmcp.com/zh/llms.txt` 与 `https://feedmcp.com/llms.txt`
+- `https://feedmcp.com/agents.md` 与 `https://feedmcp.com/auth.md`
+- `https://feedmcp.com/.well-known/api-catalog`（RFC 9727）
+- `https://feedmcp.com/.well-known/ard.json` 与 `https://feedmcp.com/.well-known/ai-catalog.json`（ARD 智能体资源目录）
+- `https://feedmcp.com/.well-known/mcp/server-card.json`（MCP 服务卡片）
+- `https://feedmcp.com/.well-known/agent-skills/index.json`（Agent Skills 自动发现）
+- 全站所有页面支持 `.md` 后缀与 `Accept: text/markdown` 原生内容协商（附带 YAML Frontmatter 与 `x-markdown-tokens`）
+- 按数据类型浏览：[跨平台评论提取 API](https://feedmcp.com/zh/roles/comments/) · [视频字幕/逐字稿提取 API](https://feedmcp.com/zh/roles/transcripts/) · [全网实时热搜榜 API](https://feedmcp.com/zh/roles/trends/) · [四大广告库 API](https://feedmcp.com/zh/roles/ads/) · [星图与蒲公英达人报价 API](https://feedmcp.com/zh/roles/creators/)
+- 选型对比：[2026 社媒数据 API 与 MCP 哪家好（FeedMCP vs DataXAPI vs Qovia vs AIsa vs TikHub）](https://feedmcp.com/zh/compare/best-social-media-data-apis/) · [TikHub 与 FeedMCP 对比](https://feedmcp.com/zh/compare/tikhub-vs-feedmcp/)
+
+---
+
 ## 开源协议与联系
 
 MIT License — 见 [LICENSE](./LICENSE)。问题与需求反馈：[support@feedmcp.com](mailto:support@feedmcp.com)。

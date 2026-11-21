@@ -150,9 +150,12 @@ FeedMCP implements standard agent discovery endpoints:
 - `https://feedmcp.com/llms.txt` & `https://feedmcp.com/zh/llms.txt`
 - `https://feedmcp.com/agents.md` & `https://feedmcp.com/auth.md`
 - `https://feedmcp.com/.well-known/api-catalog` (RFC 9727)
+- `https://feedmcp.com/.well-known/ard.json` & `https://feedmcp.com/.well-known/ai-catalog.json` (Agentic Resource Discovery)
 - `https://feedmcp.com/.well-known/mcp/server-card.json` (MCP Server Card)
 - `https://feedmcp.com/.well-known/agent-skills/index.json` (Agent Skills Discovery v0.2.0)
-- `Accept: text/markdown` content negotiation supported on every public page
+- `Accept: text/markdown` content negotiation (with YAML frontmatter and `x-markdown-tokens`) supported on every public page
+- Browse by capability: [Comments API](https://feedmcp.com/roles/comments/) · [Video Transcripts API](https://feedmcp.com/roles/transcripts/) · [Trending & Index API](https://feedmcp.com/roles/trends/) · [Ad Libraries API](https://feedmcp.com/roles/ads/) · [Creator Rate Cards API](https://feedmcp.com/roles/creators/)
+- Side-by-side comparison: [Best Social Media Data APIs & MCP Servers (2026)](https://feedmcp.com/compare/best-social-media-data-apis/) · [TikHub vs FeedMCP](https://feedmcp.com/compare/tikhub-vs-feedmcp/)
 
 ---
 
