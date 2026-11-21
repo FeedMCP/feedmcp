@@ -48,7 +48,7 @@ claude mcp add --transport http feedmcp https://api.feedmcp.com/mcp \
 ## Python SDK 与 CLI（零依赖）
 
 ```bash
-pip install feedmcp
+pip install feedmcp-sdk
 ```
 
 ```python

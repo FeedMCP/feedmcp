@@ -62,7 +62,7 @@ More client guides (Claude Desktop, Windsurf, Cherry Studio, ChatGPT Actions, De
 Zero external runtime dependencies (Python 3.9+ stdlib only).
 
 ```bash
-pip install feedmcp
+pip install feedmcp-sdk
 ```
 
 ```python

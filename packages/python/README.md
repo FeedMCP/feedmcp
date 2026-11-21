@@ -7,7 +7,7 @@ Official zero-dependency Python client and CLI for [FeedMCP](https://feedmcp.com
 ## Install
 
 ```bash
-pip install feedmcp
+pip install feedmcp-sdk
 ```
 
 ## Quick Start
