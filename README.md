@@ -1,6 +1,8 @@
 # FeedMCP — Social Media Data MCP Server, REST API & SDKs
 
-[中文文档](./README.zh-CN.md) · [Website](https://feedmcp.com) · [Endpoints & Pricing](https://feedmcp.com/pricing/) · [Docs](https://feedmcp.com/docs/) · [Integrations](https://feedmcp.com/integrations/) · [`llms.txt`](https://feedmcp.com/llms.txt)
+[![FeedMCP MCP connector](https://glama.ai/mcp/connectors/com.feedmcp/mcp/badges/score.svg)](https://glama.ai/mcp/connectors/com.feedmcp/mcp)
+
+[中文文档](./README.zh-CN.md) · [Website](https://feedmcp.com) · [Endpoints & Pricing](https://feedmcp.com/pricing/) · [Docs](https://feedmcp.com/docs/) · [Integrations](https://feedmcp.com/integrations/) · [Glama](https://glama.ai/mcp/connectors/com.feedmcp/mcp) · [`llms.txt`](https://feedmcp.com/llms.txt)
 
 **One API key and one unified JSON schema for public social media, creator marketing, ad library, and e-commerce data across 21 global and Chinese platforms (193 endpoints).** Pay per call starting at **$0.0003**; failed, timed-out, and missing-object calls are **always free**.
 

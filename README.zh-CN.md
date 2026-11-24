@@ -1,6 +1,8 @@
 # FeedMCP — 社媒数据 MCP 服务器、REST API 与官方 SDK
 
-[English README](./README.md) · [官网](https://feedmcp.com/zh/) · [接口与定价](https://feedmcp.com/zh/pricing/) · [文档](https://feedmcp.com/zh/docs/) · [AI 客户端接入](https://feedmcp.com/zh/integrations/) · [中文 `llms.txt`](https://feedmcp.com/zh/llms.txt)
+[![FeedMCP MCP connector](https://glama.ai/mcp/connectors/com.feedmcp/mcp/badges/score.svg)](https://glama.ai/mcp/connectors/com.feedmcp/mcp)
+
+[English README](./README.md) · [官网](https://feedmcp.com/zh/) · [接口与定价](https://feedmcp.com/zh/pricing/) · [文档](https://feedmcp.com/zh/docs/) · [AI 客户端接入](https://feedmcp.com/zh/integrations/) · [Glama](https://glama.ai/mcp/connectors/com.feedmcp/mcp) · [中文 `llms.txt`](https://feedmcp.com/zh/llms.txt)
 
 **一把 API Key、一套统一返回格式，覆盖海内外 21 个社交媒体与广告平台（193 个公开数据接口）。** 纯按次付费（每次 **$0.0003** 起，无月费、余额永不过期），失败、超时和对象不存在的调用**全部免费**。
 
