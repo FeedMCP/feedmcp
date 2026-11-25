@@ -2,7 +2,7 @@
 
 [![FeedMCP MCP connector](https://glama.ai/mcp/connectors/com.feedmcp/mcp/badges/score.svg)](https://glama.ai/mcp/connectors/com.feedmcp/mcp)
 
-[English README](./README.md) · [官网](https://feedmcp.com/zh/) · [接口与定价](https://feedmcp.com/zh/pricing/) · [文档](https://feedmcp.com/zh/docs/) · [AI 客户端接入](https://feedmcp.com/zh/integrations/) · [Glama](https://glama.ai/mcp/connectors/com.feedmcp/mcp) · [中文 `llms.txt`](https://feedmcp.com/zh/llms.txt)
+[English README](./README.md) · [官网](https://feedmcp.com/zh/?utm_source=github) · [接口与定价](https://feedmcp.com/zh/pricing/?utm_source=github) · [文档](https://feedmcp.com/zh/docs/?utm_source=github) · [AI 客户端接入](https://feedmcp.com/zh/integrations/?utm_source=github) · [Glama](https://glama.ai/mcp/connectors/com.feedmcp/mcp) · [中文 `llms.txt`](https://feedmcp.com/zh/llms.txt)
 
 **一把 API Key、一套统一返回格式，覆盖海内外 21 个社交媒体与广告平台（193 个公开数据接口）。** 纯按次付费（每次 **$0.0003** 起，无月费、余额永不过期），失败、超时和对象不存在的调用**全部免费**。
 
@@ -43,7 +43,7 @@ claude mcp add --transport http feedmcp https://api.feedmcp.com/mcp \
 }
 ```
 
-更多客户端（Claude Desktop、Codex、Windsurf、Cherry Studio、ChatGPT Actions、DeepSeek、WorkBuddy、豆包/扣子、通义千问、Dify & n8n）见 [docs/mcp-setup.md](./docs/mcp-setup.md) 或 [feedmcp.com/zh/integrations/](https://feedmcp.com/zh/integrations/)。
+更多客户端（Claude Desktop、Codex、Windsurf、Cherry Studio、ChatGPT Actions、DeepSeek、WorkBuddy、豆包/扣子、通义千问、Dify & n8n）见 [docs/mcp-setup.md](./docs/mcp-setup.md) 或 [feedmcp.com/zh/integrations/](https://feedmcp.com/zh/integrations/?utm_source=github)。
 
 ---
 
@@ -97,15 +97,15 @@ console.log(res.data.items, res.meta.billing);
 ## AI 协议发现与选型对比
 
 FeedMCP 原生支持完整的 AI Agent 自动发现协议与纯文本协商：
-- `https://feedmcp.com/zh/llms.txt` 与 `https://feedmcp.com/llms.txt`
+- `https://feedmcp.com/zh/?utm_source=githubllms.txt` 与 `https://feedmcp.com/llms.txt`
 - `https://feedmcp.com/agents.md` 与 `https://feedmcp.com/auth.md`
 - `https://feedmcp.com/.well-known/api-catalog`（RFC 9727）
 - `https://feedmcp.com/.well-known/ard.json` 与 `https://feedmcp.com/.well-known/ai-catalog.json`（ARD 智能体资源目录）
 - `https://feedmcp.com/.well-known/mcp/server-card.json`（MCP 服务卡片）
 - `https://feedmcp.com/.well-known/agent-skills/index.json`（Agent Skills 自动发现）
 - 全站所有页面支持 `.md` 后缀与 `Accept: text/markdown` 原生内容协商（附带 YAML Frontmatter 与 `x-markdown-tokens`）
-- 按数据类型浏览：[跨平台评论提取 API](https://feedmcp.com/zh/roles/comments/) · [视频字幕/逐字稿提取 API](https://feedmcp.com/zh/roles/transcripts/) · [全网实时热搜榜 API](https://feedmcp.com/zh/roles/trends/) · [四大广告库 API](https://feedmcp.com/zh/roles/ads/) · [星图与蒲公英达人报价 API](https://feedmcp.com/zh/roles/creators/)
-- 选型对比：[2026 社媒数据 API 与 MCP 哪家好（FeedMCP vs DataXAPI vs Qovia vs AIsa vs TikHub）](https://feedmcp.com/zh/compare/best-social-media-data-apis/) · [TikHub 与 FeedMCP 对比](https://feedmcp.com/zh/compare/tikhub-vs-feedmcp/)
+- 按数据类型浏览：[跨平台评论提取 API](https://feedmcp.com/zh/roles/comments/?utm_source=github) · [视频字幕/逐字稿提取 API](https://feedmcp.com/zh/roles/transcripts/?utm_source=github) · [全网实时热搜榜 API](https://feedmcp.com/zh/roles/trends/?utm_source=github) · [四大广告库 API](https://feedmcp.com/zh/roles/ads/?utm_source=github) · [星图与蒲公英达人报价 API](https://feedmcp.com/zh/roles/creators/?utm_source=github)
+- 选型对比：[2026 社媒数据 API 与 MCP 哪家好（FeedMCP vs DataXAPI vs Qovia vs AIsa vs TikHub）](https://feedmcp.com/zh/compare/best-social-media-data-apis/?utm_source=github) · [TikHub 与 FeedMCP 对比](https://feedmcp.com/zh/compare/tikhub-vs-feedmcp/?utm_source=github)
 
 ---
 

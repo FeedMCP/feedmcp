@@ -17,7 +17,7 @@
    git push -u origin main
    ```
 3. 在 GitHub 仓库右上角 **About** 填好：
-   - **Website**: `https://feedmcp.com`
+   - **Website**: `https://feedmcp.com/?utm_source=github`
    - **Description**: `Social media data MCP server & pay-per-call API for 21 global and Chinese platforms (TikTok, YouTube, Instagram, X, Xiaohongshu, Douyin, WeChat).`
    - **Topics**: `mcp`, `mcp-server`, `social-media-api`, `tiktok`, `youtube`, `instagram`, `twitter`, `xiaohongshu`, `douyin`, `wechat`, `ai-agent`
 
@@ -78,13 +78,31 @@ npm publish --access public
 
 | # | 目标仓库 | 分类位置 | 提交文案（直接复制） |
 |---|---|---|---|
-| 1 | `punkpeye/awesome-remote-mcp-servers` | Social Media / Data | `- [FeedMCP](https://feedmcp.com/mcp/) ([`https://api.feedmcp.com/mcp`](https://api.feedmcp.com/mcp)) - Public social media, creator marketing & ad library data across 21 global and Chinese platforms (TikTok, YouTube, Instagram, X, Xiaohongshu, Douyin, WeChat). Streamable HTTP, pay-per-call, failed calls free.` |
+| 1 | `punkpeye/awesome-remote-mcp-servers` | Social Media / Data | `- [FeedMCP](https://feedmcp.com/mcp/?utm_source=github&utm_campaign=awesome-remote-mcp) ([`https://api.feedmcp.com/mcp`](https://api.feedmcp.com/mcp)) - Public social media, creator marketing & ad library data across 21 global and Chinese platforms (TikTok, YouTube, Instagram, X, Xiaohongshu, Douyin, WeChat). Streamable HTTP, pay-per-call, failed calls free.` |
 | 2 | `jaw9c/awesome-remote-mcp-servers` | Data & Marketing | 同上 |
 | 3 | `TensorBlock/awesome-mcp-servers` | Social Media | `- [FeedMCP](https://github.com/FeedMCP/feedmcp) - Unified social media data MCP server and REST API for 21 platforms (193 endpoints: TikTok, YouTube, X, Instagram, Reddit, Meta/Google Ads, Xiaohongshu, Douyin, WeChat).` |
-| 4 | `YinTokey/Awesome-MCP-ZH`（或同类中文 MCP 榜） | 社交媒体与数据 | `- [FeedMCP 社媒数据 MCP](https://feedmcp.com/zh/mcp/)（[GitHub](https://github.com/FeedMCP/feedmcp)）- 远程 Streamable HTTP MCP 服务器，一把 Key 读取小红书（含蒲公英）、抖音（含星图与巨量算数）、微信公众号/视频号/微信指数、微博、B 站、知乎、TikTok、YouTube、X 及四大广告库（21 平台 193 接口，按次计费，失败不收费）。` |
+| 4 | `YinTokey/Awesome-MCP-ZH`（或同类中文 MCP 榜） | 社交媒体与数据 | `- [FeedMCP 社媒数据 MCP](https://feedmcp.com/zh/mcp/?utm_source=github&utm_campaign=awesome-mcp-zh)（[GitHub](https://github.com/FeedMCP/feedmcp)）- 远程 Streamable HTTP MCP 服务器，一把 Key 读取小红书（含蒲公英）、抖音（含星图与巨量算数）、微信公众号/视频号/微信指数、微博、B 站、知乎、TikTok、YouTube、X 及四大广告库（21 平台 193 接口，按次计费，失败不收费）。` |
 | 5 | `zackchewa/awesome-china-mcp` | Social Media & Content | `- [FeedMCP](https://github.com/FeedMCP/feedmcp) - Hosted remote MCP server for Chinese & global social media data: Xiaohongshu (RedNote + PGY), Douyin (Xingtu + Ocean Engine), WeChat Official Accounts/Channels/Index, Weibo, Bilibili, Zhihu, Kuaishou ($0.002/call, no login or cookies required).` |
 | 6 | `thedaviddias/llms-txt-hub` | Developer Tools / APIs | 提交站点 `https://feedmcp.com`、`https://feedmcp.com/llms.txt` 与 `https://feedmcp.com/llms-full.txt` |
 | 7 | `karanb192/awesome-claude-skills` | Data & Research Skills | `- [feedmcp](https://feedmcp.com/.well-known/agent-skills/feedmcp/SKILL.md) ([Repo](https://github.com/FeedMCP/feedmcp)) - Query live public social media, influencer rate cards, ad libraries, and video transcripts across 21 global and Chinese platforms with spend guardrails.` |
 | 8 | `UnderleveledBuilder/awesome-social-media-skills` | 数据采集与分析 | `- [FeedMCP 社媒数据 Skill](https://github.com/FeedMCP/feedmcp/blob/main/SKILL.md) - 免登录读取小红书、抖音、公众号、视频号、B 站、TikTok、YouTube、X 的帖子、评论、热搜榜、字幕与达人报价，支持 Claude Code、Cursor、WorkBuddy、OpenClaw。` |
-| 9 | `public-apis/public-apis` & `marcelscruz/public-apis` | Social | `| [FeedMCP](https://feedmcp.com/docs/) | Unified public social media, creator & ad library data across 21 global and Chinese platforms | `apiKey` | Yes | Yes |` |
-| 10 | `1c7/chinese-independent-developer` | 开发工具 / 数据接口 | `- [FeedMCP 社媒数据 MCP & API](https://feedmcp.com/zh/)：让 AI（Claude、Cursor、WorkBuddy、DeepSeek、豆包）直接读取小红书、抖音、微信公众号、视频号、微博、B 站、TikTok、YouTube、X 等 21 个平台公开数据，按次计费，失败不收费。` |
+| 9 | `public-apis/public-apis` & `marcelscruz/public-apis` | Social | `| [FeedMCP](https://feedmcp.com/docs/?utm_source=github&utm_campaign=public-apis) | Unified public social media, creator & ad library data across 21 global and Chinese platforms | `apiKey` | Yes | Yes |` |
+| 10 | `1c7/chinese-independent-developer` | 开发工具 / 数据接口 | `- [FeedMCP 社媒数据 MCP & API](https://feedmcp.com/zh/?utm_source=github&utm_campaign=chinese-indie)：让 AI（Claude、Cursor、WorkBuddy、DeepSeek、豆包）直接读取小红书、抖音、微信公众号、视频号、微博、B 站、TikTok、YouTube、X 等 21 个平台公开数据，按次计费，失败不收费。` |
+
+---
+
+## 7. 站外渠道 UTM 归因规范（与 `/admin` 后台归因规则对齐）
+
+所有**面向人点击的网页链接**按渠道统一加 `?utm_source=...`（`llms.txt`、`agents.md`、`openapi.json`、`prices.json`、`/.well-known/*` 和 `https://api.feedmcp.com/*` 等机器接口保持干净不加参数）：
+
+| 发布渠道 | 推荐链接后缀 | `/admin` 归类结果 |
+| --- | --- | --- |
+| GitHub README / About / Awesome PR | `?utm_source=github`（可附加 `&utm_campaign=xxx`） | `github` (`dev`) |
+| npm 包页面 (`feedmcp`) | `?utm_source=npm` | `npm` (`dev`) |
+| PyPI 包页面 (`feedmcp-sdk`) | `?utm_source=pypi` | `pypi` (`dev`) |
+| Glama 目录 | `?utm_source=glama` | `glama` (`directory`) |
+| Smithery 目录 | `?utm_source=smithery` | `smithery` (`directory`) |
+| PulseMCP / mcp.so / Context7 | `?utm_source=pulsemcp` / `mcp.so` / `context7` | `directory` |
+| 知乎 / 掘金 / CSDN / V2EX | `?utm_source=zhihu` / `juejin` / `csdn` / `v2ex` | 对应独立渠道行 |
+| Dev.to / Medium / Hashnode / Reddit / X | `?utm_source=devto` / `medium` / `hashnode` / `reddit` / `x` | 对应独立渠道行 |
+| 小红书 / 微信公众号 / 微信群 | `?utm_source=xiaohongshu` / `wechat` | `social` |

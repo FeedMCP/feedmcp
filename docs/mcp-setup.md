@@ -3,7 +3,7 @@
 - **Remote MCP URL**: `https://api.feedmcp.com/mcp` (`Streamable HTTP`)
 - **HTTP Base URL**: `https://api.feedmcp.com`
 - **OpenAPI 3.1**: `https://feedmcp.com/openapi.json`
-- **Get a free `$0.10` trial API key (no card)**: `https://feedmcp.com/console/keys/`
+- **Get a free `$0.10` trial API key (no card)**: `https://feedmcp.com/console/keys/?utm_source=github`
 
 ---
 
@@ -81,4 +81,4 @@ Add to `~/.codeium/windsurf/mcp_config.json`:
 - Set authentication to **Bearer API Key** (`Authorization: Bearer fmk_live_YOUR_KEY`).
 - Always pass `X-Max-Price` and `Idempotency-Key` in automated workflow nodes.
 
-Full client-by-client guides: https://feedmcp.com/integrations/
+Full client-by-client guides: https://feedmcp.com/integrations/?utm_source=github

@@ -1,6 +1,6 @@
 # feedmcp (Python SDK & CLI)
 
-Official zero-dependency Python client and CLI for [FeedMCP](https://feedmcp.com) — unified public social media, creator marketing, ad library, and e-commerce data across 21 global and Chinese platforms (193 endpoints).
+Official zero-dependency Python client and CLI for [FeedMCP](https://feedmcp.com/?utm_source=pypi) — unified public social media, creator marketing, ad library, and e-commerce data across 21 global and Chinese platforms (193 endpoints).
 
 > Note: FeedMCP (`feedmcp.com`) is a social media data MCP server and HTTP API, not an RSS feed reader.
 
@@ -45,4 +45,4 @@ feedmcp call douyin.trends.list --max-price 0.002
 feedmcp account
 ```
 
-Get a free `$0.10` trial API key (no card required): https://feedmcp.com/console/keys/
+Get a free `$0.10` trial API key (no card required): https://feedmcp.com/console/keys/?utm_source=pypi
